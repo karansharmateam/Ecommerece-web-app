@@ -2,7 +2,7 @@
  kind:  Service
 
  metadata:
-  name: online-app-svc
+  name: online-shop-svc
   namespace: online-shop
 
 spec:
