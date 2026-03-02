@@ -18,3 +18,16 @@ chmod +x ./kubectl
 sudo mv ./kubectl /usr/local/bin/kubectl
 # check version
 kubectl version
+
+
+# create cluster command
+kind create cluster --config cluster.yml --name karan-cluster
+kubectl get nodes
+
+# set context redirect cluster to kubectl
+kubectl config set-context --cluster=kind-karan-cluster
+
+
+
+
+
