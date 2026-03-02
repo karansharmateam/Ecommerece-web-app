@@ -10,7 +10,7 @@ export function Footer() {
                 <Row className="gy-2">
                     <Col md={3}>
                         <div className="footer-brand mb-3">
-                            <a href="https://github.com/LondheShubham153/online_shop_hackathon" 
+                            <a href="https://github.com/karansharmateam" 
                                className="brand-link d-inline-flex align-items-center"
                             >
                                 <img src="/imgs/logo.svg" alt="Logo" width="30" height="30" className="me-2" />
@@ -23,7 +23,7 @@ export function Footer() {
                         <div className="contact-info">
                             <div className="contact-item mb-2">
                                 <FontAwesomeIcon icon={faMapMarkerAlt} className="contact-icon me-2" />
-                                <span><strong>Address:</strong> Bihar, India</span>
+                                <span><strong>Address:</strong> Rajasthan, India</span>
                             </div>
                             <div className="contact-item">
                                 <FontAwesomeIcon icon={faPhone} className="contact-icon me-2" />
@@ -37,15 +37,15 @@ export function Footer() {
                         <div className="quick-links-group">
                             <div className="quick-link-item">
                                 <FontAwesomeIcon icon={faLink} className="contact-icon me-2" />
-                                <a href="https://trainwithshubham.com" className="footer-link">Privacy Policy</a>
+                                <a href="https://github.com/karansharmateam" className="footer-link">Privacy Policy</a>
                             </div>
                             <div className="quick-link-item">
                                 <FontAwesomeIcon icon={faLink} className="contact-icon me-2" />
-                                <a href="https://trainwithshubham.com" className="footer-link">Terms & Conditions</a>
+                                <a href="https://github.com/karansharmateam" className="footer-link">Terms & Conditions</a>
                             </div>
                             <div className="quick-link-item">
                                 <FontAwesomeIcon icon={faLink} className="contact-icon me-2" />
-                                <a href="https://trainwithshubham.com" className="footer-link">Return Policy</a>
+                                <a href="https://github.com/karansharmateam" className="footer-link">Return Policy</a>
                             </div>
                         </div>
                     </Col>
@@ -76,7 +76,7 @@ export function Footer() {
                             </h5>
                             <div className="social-links-horizontal">
                                 <a 
-                                    href="https://github.com/LondheShubham153" 
+                                    href="https://github.com/karansharmateam" 
                                     target="_blank" 
                                     rel="noopener noreferrer" 
                                     className="social-link"
@@ -84,7 +84,7 @@ export function Footer() {
                                     <FontAwesomeIcon icon={faGithub} />
                                 </a>
                                 <a 
-                                    href="https://linkedin.com/in/shubhamlondhe1996" 
+                                    href="https://www.linkedin.com/in/karan-sharma-948b50324/" 
                                     target="_blank" 
                                     rel="noopener noreferrer" 
                                     className="social-link"
@@ -92,7 +92,7 @@ export function Footer() {
                                     <FontAwesomeIcon icon={faLinkedin} />
                                 </a>
                                 <a 
-                                    href="https://twitter.com/trainwitshubham" 
+                                    href="https://www.linkedin.com/in/karan-sharma-948b50324/" 
                                     target="_blank" 
                                     rel="noopener noreferrer" 
                                     className="social-link"
@@ -110,12 +110,12 @@ export function Footer() {
                     <div className="mb-1">
                         Made with <FontAwesomeIcon icon={faHeart} className="heart-icon" /> by{" "}
                         <a 
-                            href="https://iemafzalhassan.tech" 
+                            href="https://www.linkedin.com/in/karan-sharma-948b50324/" 
                             target="_blank" 
                             rel="noopener noreferrer"
                             className="author-link"
                         >
-                            Md. Afzal Hassan Ehsani
+                            KARAN SHARMA
                         </a>
                     </div>
                     <div>
