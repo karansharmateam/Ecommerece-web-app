@@ -28,6 +28,10 @@ kubectl get nodes
 kubectl config set-context --cluster=kind-karan-cluster
 
 
+# ingerss setup , Nginx controller
+kubectl apply -f https://kind.sigs.k8s.io/examples/ingress/usage.yaml
 
-
+kubectl get svc -n ingress-nginx
+kubectl get pod -n ingress-nginx 
+sudo -E kubectl port-forward scv/ingress-nginx-contrroller -n ingress-nginx 80:80 --address=0.0.0.0
 
