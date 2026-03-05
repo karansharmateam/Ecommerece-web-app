@@ -8,6 +8,7 @@ COPY package*.json ./
 RUN npm install
 # copy all code
 COPY . .
+RUN npm run build
 
 # production stage with Nginx
 
