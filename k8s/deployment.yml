@@ -1,17 +1,15 @@
 apiVersion: apps/v1
 kind: Deployment
-
-metadata: 
+metadata:
   name: online-shop-deployment
   namespace: online-shop
   labels:
     app: online-shop
-
 spec:
   replicas: 2
   selector:
-    matchlabels:
-       app: online-shop
+    matchLabels:
+      app: online-shop
   template:
     metadata:
       name:  online-shop-pod
@@ -19,10 +17,8 @@ spec:
       labels:
         app: online-shop
     spec:
-      container:
+      containers:       
       - name: online-shop-container
         image: karansharmadocker123/online-shop-app:latest
         ports:
-          - containerPort: 5173
-          
-        
+          - containerPort: 5173        

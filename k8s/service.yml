@@ -1,16 +1,12 @@
- apiVersion: v1
- kind:  Service
-
- metadata:
+apiVersion: v1
+kind: Service
+metadata:
   name: online-shop-svc
   namespace: online-shop
-
 spec:
   selector:
-      app: online-shop
-
-  ports:
+    app: online-shop
+  ports: 
     - protocol: TCP
-      port: 5173  #service / cluster
-      targetPort: 5173 # pod / cluster
-      
+      port: 80
+      targetPort: 80
